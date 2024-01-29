@@ -1,7 +1,7 @@
 # HDL-code-to-compute-Y-DXD-T
-where each element of X is 8-bit and comes serially (takes 64 clock cycles to get all values).A 
-verilog HDL code is written to compute Y = DXD" where D is constant matrix of size 8 x 8 and is given by,
-We used 1 MAC and called it sequentially to
+#where each element of X is 8-bit and comes serially (takes 64 clock cycles to get all values).A 
+verilog HDL code is written to compute Y = DXD^T where D is constant matrix of size 8 x 8 and is given by,
+#We used 1 MAC and called it sequentially to
 compute 1x8 and 8x1 Matrix Multiplication(Refer
 ATB8.v). Later we called this module parallelly for 8
 times to compute 1x8 and 8x8 Matrix
